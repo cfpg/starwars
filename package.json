@@ -1,0 +1,35 @@
+{
+  "name": "base",
+  "version": "0.0.1",
+  "description": "Base generator for static sites",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com:cfpg/base.git"
+  },
+  "author": "Carlos F. Pena",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/cfpg/base/issues"
+  },
+  "homepage": "https://github.com/cfpg/base",
+  "dependencies": {
+    "almond": "^0.3.3",
+    "bourbon-neat": "^1.8.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "gsap": "^1.19.0",
+    "jquery": "^3.1.1",
+    "node-sass": "^3.10.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.1",
+    "grunt-contrib-connect": "^1.0.2"
+  }
+}
